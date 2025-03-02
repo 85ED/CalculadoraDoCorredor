@@ -7,4 +7,5 @@ export default defineConfig({
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
+  base: '/CalculadoraDoCorredor/', // Set the base path to match your GitHub repository name
 });

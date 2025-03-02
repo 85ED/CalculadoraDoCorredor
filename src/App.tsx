@@ -42,6 +42,11 @@ Cuide da sua saúde e bem-estar!`);
               src="https://raw.githubusercontent.com/85ED/CalculadoraDoCorredor/main/imagens%20/IMG_6961.jpg" 
               alt="Edson Felix" 
               className="w-16 h-16 rounded-full object-cover border-2 border-white"
+              onError={(e) => {
+                const target = e.target as HTMLImageElement;
+                target.onerror = null;
+                target.src = 'https://github.com/85ED/CalculadoraDoCorredor/raw/main/imagens%20/IMG_6961.jpg';
+              }}
             />
             <div>
               <h1 className="text-xl font-bold">Calculadora do Corredor</h1>
@@ -64,6 +69,11 @@ Cuide da sua saúde e bem-estar!`);
                 src="https://raw.githubusercontent.com/85ED/CalculadoraDoCorredor/main/imagens%20/icon.png" 
                 alt="Runner Icon" 
                 className="h-8 w-8 mr-2"
+                onError={(e) => {
+                  const target = e.target as HTMLImageElement;
+                  target.onerror = null;
+                  target.src = 'https://github.com/85ED/CalculadoraDoCorredor/raw/main/imagens%20/icon.png';
+                }}
               />
               <h2 className="text-2xl font-bold text-gray-800">Conheça sua Zona 2</h2>
               <div 
@@ -167,7 +177,7 @@ Cuide da sua saúde e bem-estar!`);
       <footer className="bg-indigo-800 text-white py-6 mt-10">
         <div className="container mx-auto px-4 text-center">
           <p>© {new Date().getFullYear()} Calculadora do Corredor - Desenvolvido por <span className="font-bold">Edson Felix</span></p>
-          <p className="text-indigo-300 text-sm mt-2">Treine na Zona 2 para melhorar sua queima de Calorias</p>
+          <p className="text-indigo-300 text-sm mt-2">Treine na Zona 2 para melhorar sua performance e saúde</p>
         </div>
       </footer>
     </div>
