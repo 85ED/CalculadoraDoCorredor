@@ -167,7 +167,7 @@ Cuide da sua saúde e bem-estar!`);
       <footer className="bg-indigo-800 text-white py-6 mt-10">
         <div className="container mx-auto px-4 text-center">
           <p>© {new Date().getFullYear()} Calculadora do Corredor - Desenvolvido por <span className="font-bold">Edson Felix</span></p>
-          <p className="text-indigo-300 text-sm mt-2">Treine na Zona 2 para melhorar sua performance e saúde</p>
+          <p className="text-indigo-300 text-sm mt-2">Treine na Zona 2 para melhorar sua queima de Calorias</p>
         </div>
       </footer>
     </div>
