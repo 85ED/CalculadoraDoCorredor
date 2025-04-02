@@ -417,7 +417,7 @@ Cuide da sua saúde e bem-estar!`);
               <div className="space-y-6">
                 <div className="space-y-2">
                   <label htmlFor="name" className="block text-sm font-medium text-gray-700 flex items-center">
-                    <Footprints className="h-4 w-4 mr-2" />
+                    <User className="h-4 w-4 mr-2" />
                     Qual o seu nome, corredor?
                   </label>
                   <input
